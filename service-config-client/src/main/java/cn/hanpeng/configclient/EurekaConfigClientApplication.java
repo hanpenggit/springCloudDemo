@@ -15,12 +15,12 @@ public class EurekaConfigClientApplication {
 	}
 
 
-	@Value("${servertest}")
-	String servertest;
+	@Value("${servicetest}")
+	String servicetest;
 
 	@RequestMapping(value = "/demo")
 	public String demo(){
-		return servertest;
+		return servicetest;
 	}
 
 }

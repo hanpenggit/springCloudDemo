@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hanpenggit/springCloudDemo
+          uri: https://github.com/hanpenggit/springCloudDemo/
           search-paths: configWarehouse
-          default-label: master
+          default-label: main
 
 server:
   port: 8888
